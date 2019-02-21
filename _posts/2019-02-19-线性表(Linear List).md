@@ -7,7 +7,7 @@ author:     Galvin
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - AWS
+    - Data Structure
 --- 
 
 #### Array
@@ -16,6 +16,7 @@ tags:
 - 动态扩容数组，是申请一块更大的连续空间，并且将原数据复制到新空间去
 
 #### Linked List
+* [LinkedList-Golang](https://github.com/Galvin-wjw/Golang-study/blob/master/Algorithm/linked-list.go)
 * 链表通过指针将一片零散的内存块串联起来使用；连续空间不符合数组申请要求，会申请空间失败
 * 链表随机访问需要根据指针遍历 O(n)
 * 双向链表既有  prev 指针，也有next指针
